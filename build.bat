@@ -1,0 +1,1 @@
+go build -o builds\snake.exe -tags static -ldflags "-s -w -H=windowsgui"
