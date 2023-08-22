@@ -14,8 +14,8 @@ const (
 // Game colors
 var COLORS = map[string]sdl.Color{
 	"background":  {R: 36, G: 36, B: 36, A: 255},
-	"snakeHead":   {R: 255, G: 170, B: 0, A: 255},
-	"snakeBody":   {R: 255, G: 255, B: 85, A: 255},
+	"snakeHead":   {R: 0, G: 174, B: 217, A: 255},
+	"snakeBody":   {R: 90, G: 201, B: 226, A: 255},
 	"berry":       {R: 255, G: 85, B: 85, A: 255},
 	"border":      {R: 85, G: 85, B: 85, A: 255},
 	"gameOver":    {R: 255, G: 85, B: 85, A: 255},
